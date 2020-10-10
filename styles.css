@@ -1,0 +1,162 @@
+.natimg img{
+
+  width: 30%;
+
+  margin-left: 15%;
+  margin-top: 8%;
+  z-index: 0;
+  position: absolute;
+  box-shadow: 10px 10px 20px #111;
+
+}
+
+
+
+body{
+  background-color: #111;
+
+}
+
+.banner{
+
+width: 80%;
+height: 700px;
+margin-left:10%;
+margin-top: 5%;
+
+
+background-color: #1b262c;
+position: absolute;
+overflow: scroll;
+z-index: -1;
+
+}
+
+h2{
+  color: #fff;
+  text-align: left;
+
+}
+
+h6{
+  color: #686d76;
+  text-align: left;
+  padding: 1%;
+}
+
+h5{
+  color: #fff;
+  text-align: left;
+  padding: 1%;
+}
+
+i{
+  color: #28df99;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 1%;
+}
+
+hr{
+
+  margin-left:50%;
+  margin-top: 5%;
+}
+
+
+.header{
+  /* margin-left:50%; */
+  margin-top: 5%;
+
+
+}
+
+.detail{
+  /* margin-left:40%; */
+  margin-top: 5%;
+
+}
+
+.imagetitle{
+  color: #fff;
+  position: absolute;
+  z-index:1;
+  margin-left: 18%;
+  margin-top:47%;
+  text-shadow: 2px 2px 5px #111;
+}
+.dge{color: #28df99}
+
+.description{
+  margin-left:50%;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+@media (max-width:1028px)
+{
+  .imagetitle {
+    background-color: #111;
+    width: 500px;
+    height: 80px;
+    margin-left: 10%;
+    margin-top:2%;
+    position: absolute;
+    /* padding: 20%; */
+
+
+  }
+
+
+
+  h3{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+h6{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+i{
+  text-align: center;
+  margin-left:46%;
+}
+h5{
+  text-align: center;
+}
+
+
+
+
+  .header{
+    /* margin-left:50%; */
+    margin-left: 1%;
+
+
+  }
+
+  .natimg img{
+    visibility: hidden;
+
+  }
+
+  .description{
+    margin-left:2%;
+    margin-top: 25%;
+    margin-right: 5%;
+  }
+
+  hr{
+
+    margin-left:2%;
+    margin-top: 5%;
+    margin-right: 2%;
+  }
+
+
+}
